@@ -1,4 +1,5 @@
 import Hero from "./Hero";
 import About from "./About";
+import Explore from "./Explore";
 
-export { About, Hero };
+export { About, Explore, Hero };

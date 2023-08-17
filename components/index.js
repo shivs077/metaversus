@@ -1,4 +1,6 @@
 import Navbar from "./Navbar";
-import { TypingText } from "./CustomTexts";
+import ExploreCard from "./ExploreCard";
 
-export { Navbar, TypingText };
+import { TitleText, TypingText } from "./CustomTexts";
+
+export { ExploreCard, Navbar, TitleText, TypingText };

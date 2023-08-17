@@ -1,3 +1,4 @@
 import Navbar from "./Navbar";
+import { TypingText } from "./CustomTexts";
 
-export { Navbar };
+export { Navbar, TypingText };

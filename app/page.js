@@ -1,5 +1,6 @@
 import { Navbar } from "@/components";
-import { About, Explore, GetStarted, Hero } from "@/sections";
+import { About, Explore, GetStarted, Hero, WhatsNew } from "@/sections";
+
 export default function Home() {
   return (
     <div className="bg-primary-black overflow-hidden">
@@ -13,7 +14,7 @@ export default function Home() {
       <div className="relative">
         <GetStarted />
         <div className="gradient-04 z-0" />
-        {/* <WhatsNew /> */}
+        <WhatsNew />
       </div>
     </div>
   );

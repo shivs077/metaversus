@@ -1,5 +1,5 @@
 import { Navbar } from "@/components";
-import { About, Explore, GetStarted, Hero, WhatsNew } from "@/sections";
+import { About, Explore, GetStarted, Hero, WhatsNew, World } from "@/sections";
 
 export default function Home() {
   return (
@@ -16,6 +16,7 @@ export default function Home() {
         <div className="gradient-04 z-0" />
         <WhatsNew />
       </div>
+      <World />
     </div>
   );
 }
